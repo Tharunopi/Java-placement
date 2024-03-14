@@ -1,12 +1,12 @@
-public class q29 {
+public class q30 {
     public static void main(String[] args) {
-        int a = 24;
-        int b = 36;
+        int a = -24;
+        int b = -36;
         while (b != 0) {
             int temp = b;
             b = a % b;
             a = temp;
         }
-        System.out.println(a);
+        System.out.println(-a);
     }
 }
